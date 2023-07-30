@@ -1,5 +1,7 @@
 header:
   - titles:
+      zh-Hant : &ZH_HANT  
+  - titles:
       # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
