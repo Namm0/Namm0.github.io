@@ -1,6 +1,7 @@
 ---
 title: 了解gRPC
 tags: rpc
+show_author_profile: true
 ---
 
 在了解gRPC前，首先要知道RPC和REST的區別。

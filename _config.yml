@@ -38,7 +38,8 @@ author:
   name      : Namm
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : 喔是喔真的假的55555
+  bio       : >
+    喔是喔真的假的55555
   email     : tom10221668@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -202,18 +203,25 @@ exclude:
   - /vendor
 
 defaults:
+  ## home
+  # - scope:
+  #     path: ""
+  #   values:
+  #     articles:
+  #       excerpt_type: html
   - scope:
       path: ""
       type: posts
     values:
       layout: article
-      sharing: true
-      license: true
+      sharing: false
+      license: false
       aside:
         toc: true
-      show_edit_on_github: true
-      show_subscribe: true
+      show_edit_on_github: false
+      show_subscribe: false
       pageview: true
+      lightbox: true
 
 
 ## => Plugins
